@@ -262,7 +262,8 @@ $(function() {
 		[
 			{ id: "dialogUpload", text: "Upload", click: uploadClick, },
 			{ text: "Cancel", click: function() { $(this).dialog('close'); } }
-		]
+		],
+		dialogClass: 'upload-dialog'
 	});
 	
 	enableUploadButton(false);
